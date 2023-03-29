@@ -8,7 +8,7 @@
 const container = document.querySelector(".container");
 const button = document.querySelector("button");
 
-const MAX = 16;
+const MAX = 99;
 
 const Generate = () => {
   container.innerHTML = "";

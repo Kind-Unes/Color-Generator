@@ -1,15 +1,19 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,900;1,200;1,300;1,500;1,700;1,900&display=swap');
+
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box; 
 }
 
 body{
+    overflow-x: hidden;
     background-color: rgb(245, 243, 240);
 }
 .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .btn {
     padding: 10px;
@@ -32,7 +36,7 @@ body{
 
 .color {
    font-size: large;
-   padding:2PX;
+   padding: 2PX;
    padding-top: 3px;
    margin: 8px;
    cursor: pointer;
@@ -51,7 +55,7 @@ body{
 .image {
     color:#da44d2 ;
     height: 110px;
-    width: 110px;
+    width: 100px;
     border-radius: 5px 8px 0 0px ;
 
 }
@@ -66,6 +70,49 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+nav {
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    height: 50px;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.08);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: larger;
+ font-weight: 900;
+ word-spacing: 10px;
+ letter-spacing: 2px;
+}
+
+:where(nav span) span {
+    font-size: 25px;
+}
+
+.c {
+   color: #036ccc;
+}
+
+.o1 {
+    color:#df5fd9;
+}
+
+.o2 {
+    color :#3bd485;
+}
+
+.l {
+    color :#dc093d;
+}
+    
+.r { 
+    color :#2e8059 ;
+}
 
 /*to be continued 
 @media screen and (max-width : 510px){
